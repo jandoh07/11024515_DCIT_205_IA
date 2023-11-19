@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMediaIcons > a > img {
+    width: 25px;
+    background-color: white;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact > i, .contact > p {
+    margin: 10px;
+}
+
+.secondaryNavbar {
+    background-color: aqua;    
+}
+
+img[src="images/comScience_logo.png"] {
+    width:30%;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainNavbar {
+    background-color: red;
+    width: 100%;
+    margin: auto;
+}
+
+img[src="images/computerProgramming.jpg"] {
+    /* position: absolute; */
+    /* top: -35%; */
+    z-index: -1;
+    width: 100%;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay > h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 2em;
+}
+
+.intro {
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.programmeSection {
+    background-color: white;
+    border: 2px solid red;
+    width: 90%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+    border-radius: 5px;
+}
+
+.programmeSection > a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.departmentEvents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.departmentEvents > img {
+    width: 100%;
+}
