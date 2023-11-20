@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
+
 header > nav {
     display: flex;
     justify-content: space-around;
 }
 
-.socialMediaIcons > a > img {
+.socialMediaIcons img {
     width: 25px;
     background-color: white;
 }
@@ -23,7 +24,8 @@ header > nav {
 }
 
 .secondaryNavbar {
-    background-color: aqua;    
+    background-color: #142850;  
+    color: white;  
 }
 
 img[src="images/comScience_logo.png"] {
@@ -36,7 +38,7 @@ nav > ul {
     align-items: center;
 }
 
-nav > ul > li {
+nav li {
     margin: 0 5px;
 }
 
@@ -45,7 +47,7 @@ a {
 }
 
 .mainNavbar {
-    background-color: red;
+    background-color: white;
     width: 100%;
     margin: auto;
 }
@@ -69,23 +71,29 @@ img[src="images/computerProgramming.jpg"] {
     font-size: 2em;
 }
 
+.gradientbg {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to right, #142850, transparent);
+}
+
 .intro {
     position: relative;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
 }
 
 .programmeSection {
-    background-color: white;
-    border: 2px solid red;
-    width: 90%;
+    width: 94%;
     height: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1%;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: -15%;
-    right: 5%;
+    bottom: 0;
+    right: 2.5%;
     border-radius: 5px;
 }
 
@@ -93,17 +101,75 @@ img[src="images/computerProgramming.jpg"] {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.departmentEvents {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 90%;
-    margin: auto;
-    border: 2px solid red;
+    background-color: #142850;
+    color: white;
+    height: 70%;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
-.departmentEvents > img {
+.departmentEvents {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background: url(images/ComputerScience.jpg);
+    position: relative;
+    color: white;
+        margin-bottom: 100px;
+}
+
+.bgOverlay {
+    position: absolute;
+    background-color: rgba(20, 40, 80, 0.6);
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.events {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    right: 30%;
+}
+
+.events p {
+    margin-bottom: 10px;
+}
+
+.events a {
+    background-color: white;
+    color: #142850;
+    text-decoration: none;
+    border: 2px solid #142850;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.events a:hover {
+    background-color: #142850;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.shortCourses {
+     border: 2px solid red;
+     width: 80%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     position: relative;
+}
+
+.shortCourses img {
+    width: 90%;
+}
+
+.courseItem {
+    border: 2px solid red;
+    background-color: #334774;
+    margin-top: 5px;
 }
