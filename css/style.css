@@ -11,13 +11,20 @@ header > nav {
     justify-content: space-around;
 }
 
-.socialMediaIcons img {
-    width: 25px;
-    background-color: white;
+.socialMediaIcons a {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 
 .contact {
     display: flex;
+    align-items: center;
+}
+
+.contact .material-icons {
+    font-size: 1.2em;
 }
 
 .contact > i, .contact > p {
@@ -27,9 +34,10 @@ header > nav {
 .secondaryNavbar {
     background-color: #142850;  
     color: white;  
+    font-size: 0.8em;
 }
 
-img[src="images/comScience_logo.png"] {
+img[src*="images/comScience_logo.png"] {
     width:30%;
 }
 
@@ -51,6 +59,10 @@ a {
     background-color: white;
     width: 100%;
     margin: auto;
+}
+
+.mainNavbar li > a {
+    color: #142850;
 }
 
 img[src="images/computerProgramming.jpg"] {
@@ -147,7 +159,7 @@ img[src="images/computerProgramming.jpg"] {
     width: 80%;
     height: 200px;
     margin: auto;
-    background: url(images/ComputerScience.jpg);
+    background: url(../images/ComputerScience.jpg);
     position: relative;
     color: white;
         margin-bottom: 100px;
