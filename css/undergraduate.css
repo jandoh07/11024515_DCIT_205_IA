@@ -1,0 +1,36 @@
+.undergradCourses {
+    width: 80%;
+    margin:auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1%;
+}
+
+.undergradCourses div > span {
+    display: flex;
+    justify-content: space-between;
+    background-color: #142850;
+    padding: 5px;
+    color: white;
+}
+
+.undergradCourses li {
+    list-style-type: none;
+}
+
+.undergradCourses div:first-child {
+    display: block;
+}
+
+.undergradCourses div > ul {
+    display: none;
+}
+
+.opened {
+    display: block;
+}
+
+footer {
+    margin-top: 30px;
+}

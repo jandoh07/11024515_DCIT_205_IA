@@ -1,0 +1,42 @@
+.upcomingEvents {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.pastEvents {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+}
+
+.pastEvents img {
+    width: 100%;
+}
+
+.pastEvents > div {
+    position: relative;
+    border-radius: 5px;
+}
+
+.pastEvents div > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color:rgba(20, 40, 80, 0.8);
+    width: 100%;
+    color: white;
+}
+
+.pastEvents h2 {
+    position: absolute;
+    top: 67%;
+    left: 10%;
+}
+
+footer {
+    margin-top: 5%;
+}

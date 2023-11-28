@@ -1,0 +1,16 @@
+.entryRequirements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    width: 80%;
+    margin: 2% auto;
+}
+
+.entryRequirements > div {
+    padding-top: 5%;
+}
+
+.entryRequirements h3 , .entryRequirements h4 {
+    color: #142850;
+    padding: 5px;
+}

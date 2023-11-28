@@ -1,0 +1,38 @@
+.introduction {
+    width: 80%;
+    margin: auto;
+    margin-top:2%;
+}
+
+.introduction h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #142850;
+}
+
+.introduction p {
+    padding-bottom: 5px;
+}
+
+.courseStructure {
+    width: 50%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.courseStructure > div > span {
+    display: flex;
+    justify-content: space-between;
+    background-color: #142850;
+    padding:5px;
+    color: white;
+}
+
+.courseStructure li {
+    list-style-type: none;
+    padding: 2px 0;
+}
+
+.courseStructure h3, .courseStructure strong {
+    color: #142850;
+}
