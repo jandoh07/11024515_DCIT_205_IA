@@ -4,16 +4,7 @@
 This website is my own version of the ug department of computer science website. I created it using only html, css and javascript. Most of the contents on the website are the same as what you will find on the original department of computer science website with just the design and the layout of the page that has been changed. But still some of the pages are quite similar to the original website.
 
 ## How to clone and set up website
-To clone a github website you need to fork the github repository first
-So you navigate the github repository and click on the fork icon then you follow the steps to fork the repository
-Then after you have forked the repsoitory you navigate to the forked repository and click on the code button you will see a link you copy that link 
-Then you open your gitbash and navigate to where you want to clone that repository to on your local machine
-Then you type git clone https://github.com/NameOfWebsiteYouCloned
-And that's it you are done cloning your website
-You can also sync your local repo to that of the upstream repo which is the repo you forked
-And to do that you navigate to the original repo you forked on github and click on the code button then copy the link there and you open git bash
-Then write the command git remote add upstream https://github.com/nameOfOriginalRepo
-Then you can use git remote -v to verify if you succesfully synced your local repo to the upstream repo
+To clone a github website you need to fork the github repository first. So you navigate the github repository and click on the fork icon then you follow the steps to fork the repository. Then after you have forked the repsoitory you navigate to the forked repository and click on the code button you will see a link you copy that link . Then you open your gitbash or command prompt and navigate to where you want to clone that repository to on your local machine. Then you type git clone https://github.com/NameOfWebsiteYouCloned. And that's it you are done cloning your website. You can also sync your local repo to that of the upstream repo which is the repo you forked. And to do that you navigate to the original repo you forked on github and click on the code button then copy the link there and you open git bash. Then type the command git remote add upstream https://github.com/nameOfOriginalRepo. Then you can use git remote -v to verify if you succesfully synced your local repo to the upstream repo.
 
 
 ## Screeenshots of pages of website
@@ -60,4 +51,4 @@ Then you can use git remote -v to verify if you succesfully synced your local re
 
 
 ## What I have learned from this project
-Firstly I learned how to use positioning property of relative and absolute which in the styling of my page. I also learned that to create a responsive website it is better to start from the mobile view then later design for bigger screens which makes it easier atleast from my point of view. I also learned to structure my code well that is grouping the pages, images and css files in different folders. I also learned to use semantic tags in my html code which I don't know how well I did but I believe I did good. And those are some of the things I learned while working on this project.
+Firstly I learned how to use the positioning property of relative and absolute in the styling of my page which helped me be able to put elements on top of each other. I also learned that to create a responsive website it is better to start from the mobile view then later design for bigger screens which makes it easier atleast from my point of view. I also learned to structure my code well that is grouping the pages, images and css files in different folders. I also learned to use semantic tags in my html code. And those are some of the things I learned while working on this project.
