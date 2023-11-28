@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 header > nav {
     display: flex;
     justify-content: space-around;
@@ -35,34 +34,6 @@ header > nav {
     background-color: #142850;  
     color: white;  
     font-size: 0.8em;
-}
-
-img[src*="images/comScience_logo.png"] {
-    width:30%;
-}
-
-nav > ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-}
-
-nav li {
-    margin: 0 5px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.mainNavbar {
-    background-color: white;
-    width: 100%;
-    margin: auto;
-}
-
-.mainNavbar li > a {
-    color: #142850;
 }
 
 img[src="images/computerProgramming.jpg"] {
@@ -117,63 +88,6 @@ img[src="images/computerProgramming.jpg"] {
     margin-bottom: 16%;
 }
 
-.programmeSection {
-    width: 80%;
-    height: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1%;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    bottom: -50%;
-    right: 10%;
-    border-radius: 5px;
-}
-
-.programmeSection > a {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #142850;
-    color: white;
-    height: 70%;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.programmeSection h2 {
-    padding-top: 10px;
-    /* background-color: #fff; */
-    color: #fff;
-    height: 30%;
-    text-align: center;
-}
-
-.programmeSection p:first-of-type {
-    padding-top: 10px;
-    text-align: center;
-}
-
-.departmentEvents {
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    background: url(../images/ComputerScience.jpg);
-    position: relative;
-    color: white;
-        margin-bottom: 100px;
-}
-
-.bgOverlay {
-    position: absolute;
-    background-color: rgba(20, 40, 80, 0.6);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
 .events {
     position: absolute;
     text-align: center;
@@ -202,42 +116,6 @@ img[src="images/computerProgramming.jpg"] {
     border-radius: 5px;
 }
 
-.shortCourses {
-     width: 80%;
-     height: 310px;
-     margin: auto;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     margin-bottom: 50px;
-     text-align: justify;
-     background-color: #142850;
-     color: white;
-     position: relative;
-}
-
-.shortCourses img {
-    width: 90%;
-    height: 100%;
-}
-
-.shortCourses > span {
-    position: absolute;
-    background-color: rgba(20, 40, 80, 0.6);
-    height: 100%;
-    width: 50%;
-}
-
-.shortCourses h2 {
-     padding-top: 5px;
-}
-
-.shortCourses article {
-    padding-right: 20px;
-}
-.courseItem {
-    margin-top: 10px;
-    margin-right: 10px;
-}
 
 .courseItem a {
     color: #142850;
@@ -255,54 +133,344 @@ img[src="images/computerProgramming.jpg"] {
     border-radius: 5px;
 }
 
-.coursesOffered {
-    width: 80%;
-    height: 380px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
-    gap: 1%;
-    margin-bottom: 30px;
-}
-
-.coursesOffered img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-.coursesOffered div {
-    background-color: #142850;
-    color: white;
-    display: grid;
-    grid-template-rows: 50% 50%;
-    border-radius: 20px;
-}
-
-.coursesOffered span {
-    padding: 15px;
-}
-
-.coursesOffered span > p {
-    padding-top: 10px;
-}
-
 footer {
     background-color: #142850;
     color: white;
     padding: 15px 0;
-}
 
-footer > div {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    row-gap: 15px;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    margin-top: 50px;
+}
+
+@media (max-width:800px) {
+    img[src*="images/comScience_logo.png"] {
+        width:50%;
+        height: 50px;
+    }
+
+    .overlay > h1 {
+        font-size: 1.2em;
+    }
+
+    .mainNavbar .material-icons {
+        color: #142850;
+        margin: auto;
+        margin-top: 35%;
+        cursor: pointer;
+    }
+
+    .mainNavbar a {
+        text-decoration: none;
+    }
+    .mainNavbar ul {
+        list-style-type: none;
+        position: absolute;
+        top: 9%;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        z-index: 999;
+        display: none;
+    }
+
+    .contact .material-icons {
+        font-size: 0.8em;
+    }
+
+    .contact {
+        font-size: 0.8em;
+    }
+
+    .programmeSection {
+        width: 90%;
+        margin: auto;
+    }
+
+    .programmeSection > a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #142850;
+        color: white;
+        height: 22vh;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+
+    .departmentEvents {
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        background: url(../images/ComputerScience.jpg);
+        position: relative;
+        color: white;
+            margin-bottom: 100px;
+    }
+    
+    .bgOverlay {
+        position: absolute;
+        background-color: rgba(20, 40, 80, 0.6);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .events {
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        right: 0;
+    }
+
+    .shortCourses {
+        width: 90%;
+        height: 50vh;
+        margin: auto;
+        background-color: #142850;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 4%;
+    }
+
+    .shortCourses img {
+        display: none;
+    }
+
+    .courseItem a, .courseItem a:hover {
+        margin: auto;
+    }
+
+    .courseItem:nth-child(2) {
+        margin-bottom: 2%;
+    }
+
+    .coursesOffered {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    
+    .coursesOffered img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .coursesOffered div {
+        background-color: #142850;
+        color: white;
+        display: grid;
+        height: 50vh;
+        grid-template-rows: 50% 50%;
+        border-radius: 20px;
+        margin-bottom: 4%;
+    }
+    
+    .coursesOffered span {
+        padding: 15px;
+    }
+    
+    .coursesOffered span > p {
+        padding-top: 10px;
+    }
+
+    footer {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:800px){
+                
+    
+    img[src*="images/comScience_logo.png"] {
+        width:30%;
+    }
+
+    .mainNavbar .material-icons {
+        display: none;
+    }
+    
+    
+    nav > ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 0 5px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .mainNavbar {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .mainNavbar li > a {
+        color: #142850;
+    }
+        
+    .programmeSection {
+        width: 80%;
+        height: 30vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1%;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: -50%;
+        right: 10%;
+        border-radius: 5px;
+    }
+    
+    .programmeSection > a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #142850;
+        color: white;
+        height: 70%;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    .programmeSection h2 {
+        padding-top: 10px;
+        /* background-color: #fff; */
+        color: #fff;
+        height: 30%;
+        text-align: center;
+    }
+    
+    .programmeSection p:first-of-type {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .departmentEvents {
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        background: url(../images/ComputerScience.jpg);
+        position: relative;
+        color: white;
+            margin-bottom: 100px;
+    }
+    
+    .bgOverlay {
+        position: absolute;
+        background-color: rgba(20, 40, 80, 0.6);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    
+    .shortCourses {
+         width: 80%;
+         height: 310px;
+         margin: auto;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         margin-bottom: 50px;
+         text-align: justify;
+         background-color: #142850;
+         color: white;
+         position: relative;
+    }
+    
+    .shortCourses img {
+        width: 90%;
+        height: 100%;
+    }
+    
+    .shortCourses > span {
+        position: absolute;
+        background-color: rgba(20, 40, 80, 0.6);
+        height: 100%;
+        width: 50%;
+    }
+    
+    .shortCourses h2 {
+         padding-top: 5px;
+    }
+    
+    .shortCourses article {
+        padding-right: 20px;
+    }
+    .courseItem {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    
+    .coursesOffered {
+        width: 80%;
+        height: 380px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: auto;
+        gap: 1%;
+        margin-bottom: 30px;
+    }
+    
+    .coursesOffered img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    .coursesOffered div {
+        background-color: #142850;
+        color: white;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        border-radius: 20px;
+    }
+    
+    .coursesOffered span {
+        padding: 15px;
+    }
+    
+    .coursesOffered span > p {
+        padding-top: 10px;
+    }
+    
+    
+    footer > div {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        row-gap: 15px;
+    }
+    
+    footer a {
+        color: white;
+        text-decoration: none;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:800) and (max-width:1650) {
+    .programmeSection {
+        height: 10vh;
+    }
 }

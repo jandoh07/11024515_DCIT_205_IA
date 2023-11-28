@@ -19,17 +19,14 @@
     list-style-type: none;
 }
 
-.undergradCourses div:first-child {
-    display: block;
-}
 
-.undergradCourses div > ul {
+/* .undergradCourses div > ul {
     display: none;
-}
+} */
 
-.opened {
-    display: block;
-}
+/* .none {
+    display:none;
+} */
 
 footer {
     margin-top: 30px;
