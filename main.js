@@ -19,3 +19,9 @@ closeIcon.addEventListener("click" , function(){
     navLinks.style.display = "none";
 
 })
+
+
+const caretDown1 = document.getElementById("#caretDown1");
+const caretUp1 = document.getElementById("#caretUp1");
+
+caretUp1.style.position = "absolute";
