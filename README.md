@@ -57,3 +57,7 @@ Then you can use git remote -v to verify if you succesfully synced your local re
 ![Alt text](images/image-14.png)
 ![Alt text](images/image-15.png)
 ![Alt text](images/image-16.png)
+
+
+## What I have learned from this project
+Firstly I learned how to use positioning property of relative and absolute which in the styling of my page. I also learned that to create a responsive website it is better to start from the mobile view then later design for bigger screens which makes it easier atleast from my point of view. I also learned to structure my code well that is grouping the pages, images and css files in different folders. I also learned to use semantic tags in my html code which I don't know how well I did but I believe I did good. And those are some of the things I learned while working on this project.
