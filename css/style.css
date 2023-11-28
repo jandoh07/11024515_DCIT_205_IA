@@ -325,7 +325,7 @@ footer a {
         
     .programmeSection {
         width: 80%;
-        height: 30vh;
+        height: 50vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 1%;
@@ -471,6 +471,6 @@ footer a {
 
 @media screen and (min-width:800) and (max-width:1650) {
     .programmeSection {
-        height: 10vh;
+        height: 30vh;
     }
 }
