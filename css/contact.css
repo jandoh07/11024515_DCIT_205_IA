@@ -1,0 +1,50 @@
+.contactUs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 50vh;
+    margin: 20px auto;
+    gap: 1%;
+    background: url(../images/computerscience1.jpg);
+}
+
+.contactUs article:first-child {
+    border: 2px solid green;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+
+}
+
+.contactUs div > div {
+    padding-bottom: 5%;
+}
+
+.contactUs article > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+    margin:auto;
+    margin-right: 0;
+    margin-top: 50%;
+}
+
+form {
+    /* background-color: #142850; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+form input, form textarea, form button {
+    margin: 1%;
+    min-height: 30px;
+}
+
+.contactUs .material-icons {
+    font-size: 2em;
+    color: white;
+}

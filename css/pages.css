@@ -26,12 +26,6 @@
     padding: 0 10px;
 }
 
-.getToKnowUs , .aboutWelcome {
-    width: 80%;
-    margin: auto;
-}
 
-.getToKnowUs div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+
